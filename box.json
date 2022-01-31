@@ -4,7 +4,9 @@
     "changelog":"",
     "createPackageDirectory":false,
     "contributors":[],
-    "dependencies":{},
+    "dependencies":{
+        "cfwheels":"2.2.0"
+    },
     "description":"",
     "devDependencies":{},
     "documentation":"",
