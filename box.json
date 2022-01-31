@@ -6,6 +6,7 @@
     "dependencies":{},
     "description":"",
     "devDependencies":{},
+    "directory":false,
     "documentation":"",
     "homepage":"https://github.com/bpamiri/cfwheels-template-helloworld",
     "ignore":[],
@@ -29,26 +30,6 @@
     "scripts":{},
     "shortDescription":"This package builds a simple Hello World app in CF Wheels",
     "slug":"cfwheels-template-helloworld",
-    "testbox":{
-        "bundles":"",
-        "directory":"tests.specs",
-        "excludes":"",
-        "labels":"",
-        "options":{},
-        "recurse":true,
-        "reporter":"",
-        "runner":[
-            {
-                "default":""
-            }
-        ],
-        "testBundles":"",
-        "testSpecs":"",
-        "testSuites":"",
-        "verbose":true,
-        "watchDelay":500,
-        "watchPaths":"**.cfc"
-    },
     "type":"mvc",
     "version":"1.0.0"
 }
