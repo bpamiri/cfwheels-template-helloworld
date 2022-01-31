@@ -1,0 +1,54 @@
+{
+    "author":"Peter Amiri",
+    "bugs":"",
+    "changelog":"",
+    "contributors":[],
+    "dependencies":{},
+    "description":"",
+    "devDependencies":{},
+    "documentation":"",
+    "homepage":"https://github.com/bpamiri/cfwheels-template-helloworld",
+    "ignore":[],
+    "installPaths":{},
+    "instructions":"",
+    "keywords":"Wheels CFWheels Template HelloWorld ",
+    "license":[
+        {
+            "type":"",
+            "URL":""
+        }
+    ],
+    "location":"ForgeboxStorage",
+    "name":"CF Wheels - Template - HelloWorld",
+    "private":false,
+    "projectURL":"",
+    "repository":{
+        "type":"",
+        "URL":""
+    },
+    "scripts":{},
+    "shortDescription":"This package builds a simple Hello World app in CF Wheels",
+    "slug":"cfwheels-template-helloworld",
+    "testbox":{
+        "bundles":"",
+        "directory":"tests.specs",
+        "excludes":"",
+        "labels":"",
+        "options":{},
+        "recurse":true,
+        "reporter":"",
+        "runner":[
+            {
+                "default":""
+            }
+        ],
+        "testBundles":"",
+        "testSpecs":"",
+        "testSuites":"",
+        "verbose":true,
+        "watchDelay":500,
+        "watchPaths":"**.cfc"
+    },
+    "type":"modules",
+    "version":"1.0.0"
+}
