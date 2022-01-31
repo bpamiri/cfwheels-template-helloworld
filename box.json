@@ -11,7 +11,7 @@
     "devDependencies":{},
     "documentation":"",
     "homepage":"https://github.com/bpamiri/cfwheels-template-helloworld",
-    "ignore":[],
+    "ignore":["/config/routes.cfm"],
     "installPaths":{},
     "instructions":"",
     "keywords":"Wheels CFWheels Template HelloWorld ",
