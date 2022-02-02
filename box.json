@@ -33,7 +33,7 @@
         "cfwheels-template-base":"temp"
     },
     "scripts":{
-        "postInstallAll":"rm temp/box.json --force && cp temp/ ./ --recurse && rm temp/ --recource --force && tokenReplace path=config/routes.cfm token=wheels##wheels replacement=main##index"
+        "postInstallAll":"rm temp/box.json --force && cp temp/ ./ --recurse && rm temp/ --recurse --force && tokenReplace path=config/routes.cfm token=wheels##wheels replacement=main##index"
     },
     "type":"mvc",
     "private":false,
