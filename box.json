@@ -1,37 +1,46 @@
 {
+    "name":"CFWheels Hello World Template",
+    "version":"1.0.17",
     "author":"Peter Amiri",
-    "bugs":"",
-    "changelog":"",
+    "shortDescription":"CFWheels Hello World Template",
+    "location":"ForgeboxStorage",
+    "slug":"cfwheels-template-helloworld",
+    "directory":"",
     "createPackageDirectory":false,
-    "contributors":[],
-    "dependencies":{
-        "cfwheels":"2.2.0"
-    },
-    "description":"",
-    "devDependencies":{},
+    "packageDirectory":"",
+    "homepage":"",
     "documentation":"",
-    "homepage":"https://github.com/bpamiri/cfwheels-template-helloworld",
-    "ignore":["routes.cfm"],
-    "installPaths":{},
-    "instructions":"",
-    "keywords":"Wheels CFWheels Template HelloWorld ",
+    "changelog":"",
+    "bugs":"",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/bpamiri/cfwheels-template-helloworld"
+    },
+    "keywords":[
+        "mvc",
+        "rails",
+        "wheels",
+        "cfwheels",
+        "template",
+        "helloworld"
+    ],
+    "Dependencies":{
+        "cfwheels-core":"^2.2",
+        "cfwheels-template-base":"^2.2"
+    },
+    "installPaths":{
+        "cfwheels-core":"wheels",
+        "cfwheels-template-base":""
+    },
+    "scripts":{
+        "postInstallAll":"tokenReplace path=config/routes.cfm token=wheels##wheels replacement=main##index"
+    },
+    "type":"mvc",
+    "private":false,
     "license":[
         {
-            "type":"",
-            "URL":""
+            "type":"Apache License 2.0",
+            "URL":"https://github.com/cfwheels/cfwheels/blob/master/LICENSE"
         }
-    ],
-    "location":"ForgeboxStorage",
-    "name":"CF Wheels - Template - HelloWorld",
-    "private":false,
-    "projectURL":"",
-    "repository":{
-        "type":"",
-        "URL":""
-    },
-    "scripts":{},
-    "shortDescription":"This package builds a simple Hello World app in CF Wheels",
-    "slug":"cfwheels-template-helloworld",
-    "type":"mvc",
-    "version":"1.0.0"
+    ]
 }
