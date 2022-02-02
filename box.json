@@ -30,7 +30,7 @@
     },
     "installPaths":{
         "cfwheels-core":"wheels",
-        "cfwheels-template-base":""
+        "cfwheels-template-base":"temp"
     },
     "scripts":{
         "postInstallAll":"tokenReplace path=config/routes.cfm token=wheels##wheels replacement=main##index"
