@@ -8,10 +8,10 @@
     "directory":"",
     "createPackageDirectory":false,
     "packageDirectory":"",
-    "homepage":"",
-    "documentation":"",
-    "changelog":"",
-    "bugs":"",
+    "homepage":"https://github.com/bpamiri/cfwheels-template-helloworld",
+    "documentation":"https://github.com/bpamiri/cfwheels-template-helloworld",
+    "changelog":"https://github.com/bpamiri/cfwheels-template-helloworld/commits/main",
+    "bugs":"https://github.com/bpamiri/cfwheels-template-helloworld/issues",
     "repository":{
         "type":"git",
         "URL":"https://github.com/bpamiri/cfwheels-template-helloworld"
