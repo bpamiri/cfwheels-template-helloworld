@@ -1,10 +1,10 @@
 {
     "name":"CFWheels Hello Dynamic Template",
-    "version":"1.0.7",
+    "version":"1.0.1",
     "author":"Peter Amiri",
     "shortDescription":"CFWheels Hello Dynamic Template",
     "location":"ForgeboxStorage",
-    "slug":"cfwheels-template-helloworld",
+    "slug":"cfwheels-template-hellodynamic",
     "directory":"",
     "createPackageDirectory":false,
     "packageDirectory":"",
