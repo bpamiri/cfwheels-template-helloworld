@@ -1,8 +1,8 @@
 {
-    "name":"CFWheels Hello World Template",
+    "name":"CFWheels Hello Dynamic Template",
     "version":"1.0.6",
     "author":"Peter Amiri",
-    "shortDescription":"CFWheels Hello World Template",
+    "shortDescription":"CFWheels Hello Dynamic Template",
     "location":"ForgeboxStorage",
     "slug":"cfwheels-template-helloworld",
     "directory":"",
@@ -14,7 +14,7 @@
     "bugs":"",
     "repository":{
         "type":"git",
-        "URL":"https://github.com/bpamiri/cfwheels-template-helloworld"
+        "URL":"https://github.com/bpamiri/cfwheels-template-hellodynamic"
     },
     "keywords":[
         "mvc",
@@ -22,7 +22,7 @@
         "wheels",
         "cfwheels",
         "template",
-        "helloworld"
+        "hellodynamic"
     ],
     "Dependencies":{
         "cfwheels-core":"^2.2",
