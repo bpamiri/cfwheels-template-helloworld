@@ -1,6 +1,6 @@
 {
     "name":"CFWheels Template - Hello World",
-    "version":"1.0.14",
+    "version":"1.0.15",
     "author":"Peter Amiri",
     "shortDescription":"CFWheels Template - Hello World",
     "location":"ForgeboxStorage",
@@ -26,11 +26,11 @@
     ],
     "Dependencies":{
         "cfwheels-core":"^2.2",
-        "cfwheels-template-base":"^2.2"
+        "cfwheels-base":"^2.2"
     },
     "installPaths":{
         "cfwheels-core":"wheels/",
-        "cfwheels-template-base":"base/"
+        "cfwheels-base":"base/"
     },
     "scripts":{
         "postInstallAll":"rm base/box.json --force && cp config/ base/config/ --recurse && cp views/ base/views/ --recurse && cp base/ ./ --recurse && rm base/ --recurse --force"
