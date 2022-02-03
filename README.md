@@ -23,7 +23,7 @@ As a Forgebox package there is some interesting things going on here. The packag
 ```
 "Dependencies":{
   "cfwheels-core":"^2.2",
-  "cfwheels-template-base":"^2.2"
+  "cfwheels-base":"^2.2"
 }
 ```
 
@@ -32,7 +32,7 @@ The core and base files are put into the `wheels/` and `base/` folders respectiv
 ```
 "installPaths":{
   "cfwheels-core":"wheels/",
-  "cfwheels-template-base":"base/"
+  "cfwheels-base":"base/"
 }
 ```
 
