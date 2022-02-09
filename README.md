@@ -40,7 +40,7 @@ The next part of the package that is interesting is that your application files 
 
 ```
 "scripts":{
-  "postInstallAll":"rm base/box.json --force && cp config/ base/config/ --recurse && cp views/ base/views/ --recurse && cp base/ ./ --recurse && rm base/ --recurse --force"
+  "postInstallAll":"rm base/box.json --force && cp config/ base/config/ --recurse && cp base/ ./ --recurse && rm base/ --recurse --force"
 }
 ```
 
